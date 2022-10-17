@@ -1,9 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
 body{
     font-family:proxima-nova, sans-serif;
     font-weight: 900;
     font-style: normal;
     max-width: 100%;
     max-height: 100%;
+    color:black;
 }
 
 /* Hero Image */
@@ -12,4 +19,15 @@ body{
     width: 100%;
     background-image: url(/images/hero-image.jpg);
     background-position: center;
+}
+/* Headings and Logo */
+h1, h2{
+    font-family: proxima-nova, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: black;
+}
+#logo{
+    float: right;
+    font-size: 280%;
 }
