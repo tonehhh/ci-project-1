@@ -13,15 +13,7 @@ body{
     color:black;
 }
 
-/* Hero Image */
-#hero-image{
-    height: 800px;
-    width: 100%;
-    background-image: url(/images/hero-image.jpg);
-    background-position: center;
-}
-
-/* Headings and Logo */
+/* headings and logo */
 h1, h2{
     font-family: proxima-nova, sans-serif;
     text-transform: uppercase;
@@ -33,7 +25,7 @@ h1, h2{
     font-size: 280%;
 }
 
-/* Navigation links */
+/* navigation links */
 #menu{
     font-size: 100%;
     letter-spacing: 3px;
@@ -55,4 +47,11 @@ h1, h2{
 }
 .active{
     border-bottom: 1px solid black;
+}
+/* hero image */
+#hero-image{
+    height: 800px;
+    width: 100%;
+    background-image: url(/images/hero-image.jpg);
+    background-position: center;
 }
