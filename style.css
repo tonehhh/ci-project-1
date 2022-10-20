@@ -61,6 +61,14 @@ h1, h2{
 #intro{
     text-align: center;
 }
+div{
+    text-align: center;
+}
+div .intro-1, .intro-2{
+    display: grid;
+    gap: 2rem;
+    grid-template-rows: auto;
+}
 #walter-gropius{
     height: auto;
     width: auto;
