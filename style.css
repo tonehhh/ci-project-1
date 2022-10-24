@@ -62,37 +62,23 @@ h1, h2{
 /* introduction section */
 
 #intro{
-    text-align: center;
+    height: 800px;
 }
-#introduction{
-    height: 300px;
-}
-#intro-1{
+#center-intro{
     padding-top: 30px;
-    width: 80%;
-    text-align: center;
-    margin: auto;
+    width: 33%;
+    margin: 0 auto;
+    background-color: red;
 }
-#intro-2{
+#left-intro{
     padding-top: 30px;
-    width: 80%;
-    text-align: center;
-    margin: auto;
+    width: 33%;
+    float: left;
+    background-color: blue;
 }
-#walter-gropius{
-    height: auto;
-    width: auto;
-    max-height: 100px;
-    max-width: 100px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-#walter{
-    text-align: center;
-}
-#about-walter{
-    margin: auto;
-    width: 40%;
-    text-align: center;
+#right-intro{
+    padding-top: 30px;
+    width: 33%;
+    float: right;
+    background-color: yellow;
 }
