@@ -70,54 +70,37 @@ h1, h2{
 
 /* introduction section */
 
-.flex-container{
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-}
 #introduction{
-    text-align: center;
-    margin: 30px 0;
-    font-size: 250%;
+    height: 600px;
 }
 
-#intro{
-    height: 400px;
-    padding: 10;
-}
-#main-intro{
-    background-color: red;
-    text-align: center;
-    font-size: 150%;
-}
 #left-intro{
-    background-color: blue;
+    padding-top: 100px;
+    max-height: 800px;
+    width: 50%;
+    float: left;
+    font-size: 130%;
 }
+
 #right-intro{
-    background-color: yellow;
+    padding-top: 10px;
+    width: auto;
+    float: right;
 }
 
-.flex-item-1{
+#the-bauhaus{
+    height: 600px;
+    width: auto;
+    padding: 50px;
+}
 
-}
-.flex-item-2{
-   /* background-image: url(./images/walter-1.png); */
+.left-intro-heading{
+    width: 90%;
+    float: right;
+    clear: both;
+    margin-bottom: 50px;
 }
 
-img{
-    flex: 0 5 auto;
-
-}
-@media (max-width: 950px) {
-    #menu{
-        clear: left;
-        float: left;
-        margin: 0 0 30px 30px;
-        line-height: 25px;
-    }
-}
-@media (min-width: 950px) {
-    .flex-container{
-        flex-direction: row;
-    }
+i{
+    color: black;
 }
