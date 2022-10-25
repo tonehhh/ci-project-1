@@ -82,11 +82,13 @@ h1, h2{
 }
 
 #intro{
-    height: 200px;
+    height: 400px;
     padding: 10;
 }
-#center-intro{
+#main-intro{
     background-color: red;
+    text-align: center;
+    font-size: 150%;
 }
 #left-intro{
     background-color: blue;
@@ -94,16 +96,16 @@ h1, h2{
 #right-intro{
     background-color: yellow;
 }
+
 .flex-item-1{
 
 }
 .flex-item-2{
-
+   /* background-image: url(./images/walter-1.png); */
 }
-.flex-item-3{
 
-}
-.flex-item-4{
+img{
+    flex: 0 5 auto;
 
 }
 @media (max-width: 950px) {
