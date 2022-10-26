@@ -76,21 +76,22 @@ h1, h2{
 
 #left-intro{
     padding-top: 100px;
-    max-height: 800px;
+    height: 200px;
     width: 50%;
     float: left;
     font-size: 130%;
+    background-color: red;
 }
 
 #right-intro{
     padding-top: 10px;
-    width: auto;
+    width: 50%;
     float: right;
 }
 
 #the-bauhaus{
-    height: 600px;
-    width: auto;
+    height: 800px;
+    max-width: auto;
     padding: 50px;
 }
 
@@ -101,6 +102,24 @@ h1, h2{
     margin-bottom: 50px;
 }
 
-i{
+
+/*footer section*/
+
+footer{
+    height: 150px;
+}
+
+#social-networks{
+    text-align: center;
+}
+
+#social-networks > li{
+    display: inline;
+}
+
+#social-networks i{
+    font-size: 150%;
+    margin: 1%;
+    padding: 5%;
     color: black;
 }
