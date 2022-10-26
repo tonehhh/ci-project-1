@@ -27,16 +27,12 @@ h1, h2{
 }
 #logo{
     float: left;
-    font-size: 280%;
+    font-size: 250%;
     margin-left: 30px;
 }
 
 /* navigation links */
 
-.nav-list{
-    display: flex;
-    justify-content: flex-end;
-}
 
 #menu{
     font-size: 100%;
@@ -74,34 +70,6 @@ h1, h2{
     height: 600px;
 }
 
-#left-intro{
-    padding-top: 100px;
-    height: 200px;
-    width: 50%;
-    float: left;
-    font-size: 130%;
-    background-color: red;
-}
-
-#right-intro{
-    padding-top: 10px;
-    width: 50%;
-    float: right;
-}
-
-#the-bauhaus{
-    height: 800px;
-    max-width: auto;
-    padding: 50px;
-}
-
-.left-intro-heading{
-    width: 90%;
-    float: right;
-    clear: both;
-    margin-bottom: 50px;
-}
-
 
 /*footer section*/
 
@@ -122,4 +90,23 @@ footer{
     margin: 1%;
     padding: 5%;
     color: black;
+}
+/* media queries */
+
+@media screen and (max-width: 1200px;){
+    #introduction{
+        width: 65%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+    
+}
+
+@media screen and (max-width: 600px){
+    #menu{
+        clear: left;
+        float: left;
+        margin: 0px 0px 30px 20px;
+        line-height: 25px;
+    }
 }
