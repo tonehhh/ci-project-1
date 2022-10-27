@@ -67,10 +67,56 @@ h1, h2{
 /* introduction section */
 
 #introduction{
-    height: 600px;
+    height: 800px;
 }
 
+#intro{
+    text-align: center;
+    margin: 50px 0;
+    font-size: 250%;
+}
 
+#left-about{
+    padding: 30px;
+    width: 33%;
+    float: left;
+}
+#right-about{
+    padding: 30px;
+    width: 33%;
+    float: right;
+}
+#center-about{
+    padding: 30px;
+    width: 33%;
+    margin:0 auto;
+}
+
+.left-about-para{
+    width: 60%;
+    float: right;
+    clear: both;
+    padding: 0 0 50px 0;
+}
+.right-about-para{
+    width: 60%;
+    float: left;
+    clear: both;
+    padding: 0 0 50px 0;
+}
+
+#container{
+    width: 450px;
+    height: 350px;
+    padding: 30px;
+    margin: 0 auto;
+
+}
+
+#walter-bg{
+    background: url(./images/walter-gropius-portrait.png) no-repeat center center;
+    height: 100%;
+}
 /*footer section*/
 
 footer{
