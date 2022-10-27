@@ -106,16 +106,16 @@ h1, h2{
 }
 
 #container{
-    width: 450px;
+    width: 350px;
     height: 350px;
     padding: 30px;
     margin: 0 auto;
-
 }
 
 #walter-bg{
-    background: url(./images/walter-gropius-portrait.png) no-repeat center center;
+    background: url(./images/gropius.png) no-repeat center center;
     height: 100%;
+    border-radius: 50%;
 }
 /*footer section*/
 
@@ -137,16 +137,9 @@ footer{
     padding: 5%;
     color: black;
 }
+
 /* media queries */
 
-@media screen and (max-width: 1200px;){
-    #introduction{
-        width: 65%;
-        height: 1200px;
-        margin: 0 auto;
-    }
-    
-}
 
 @media screen and (max-width: 600px){
     #menu{
