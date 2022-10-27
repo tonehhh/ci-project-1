@@ -1,7 +1,7 @@
 *{
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
-    border: none;
 }
 
 html{
@@ -12,9 +12,10 @@ body{
     font-family:proxima-nova, sans-serif;
     font-weight: 900;
     font-style: normal;
-    max-width: 100%;
-    max-height: 100%;
+    width: 100vw;
+    height: 100vh;
     color:black;
+    margin: 0;
 }
 
 /* header */
@@ -67,7 +68,7 @@ h1, h2{
 /* introduction section */
 
 #introduction{
-    height: 800px;
+
 }
 
 #intro{
@@ -76,47 +77,20 @@ h1, h2{
     font-size: 250%;
 }
 
-#left-about{
-    padding: 30px;
-    width: 33%;
-    float: left;
-}
-#right-about{
-    padding: 30px;
-    width: 33%;
-    float: right;
-}
-#center-about{
-    padding: 30px;
-    width: 33%;
-    margin:0 auto;
+.flex-container{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 800px;
+    background-color: aquamarine;
 }
 
-.left-about-para{
-    width: 60%;
-    float: right;
-    clear: both;
-    padding: 0 0 50px 0;
-}
-.right-about-para{
-    width: 60%;
-    float: left;
-    clear: both;
-    padding: 0 0 50px 0;
+.item{
+    width: 25%;
+    height: 100px;
+    background-color:green;
 }
 
-#container{
-    width: 350px;
-    height: 350px;
-    padding: 30px;
-    margin: 0 auto;
-}
-
-#walter-bg{
-    background: url(./images/gropius.png) no-repeat center center;
-    height: 100%;
-    border-radius: 50%;
-}
 /*footer section*/
 
 footer{
