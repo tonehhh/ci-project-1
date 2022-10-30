@@ -1,5 +1,4 @@
 *{
-    box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
@@ -12,7 +11,7 @@ body{
     font-family:proxima-nova, sans-serif;
     font-weight: 900;
     font-style: normal;
-    width: 100vw;
+    width: 100%;
     height: 100vh;
     color:black;
     margin: 0;
@@ -67,25 +66,20 @@ h1, h2{
 
 /* introduction section */
 
-#introduction{
-
-}
-
 #intro{
     text-align: center;
     margin: 50px 0;
     font-size: 250%;
 }
 
-.flex-container{
+.container{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     background-color: #DBFEFE;
     text-align: center;
 }
 
 .item{
-    width: 100vw;
     background-color:white;
     margin: 20px 20px;
     padding: 15px 20px;
@@ -113,6 +107,30 @@ h1, h2{
     width: auto;
 }
 
+#designs{
+    height: 800px;
+    width: 100%;
+    background: url(./images/bauhaus-designs1.png) no-repeat center center;
+    margin-bottom: 50px;
+}
+
+#bauhaus-movement{
+    width: 66%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+}
+.shapes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    padding-top: 50px;
+
+}
+.shape-video{
+}
 /*footer section*/
 
 footer{
@@ -136,17 +154,35 @@ footer{
 
 /* media queries */
 
+@media screen (max-width: 1300px);{
+    .container{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 980px){
     #menu{
         clear: left;
         float: left;
         margin: 0px 0px 30px 20px;
         line-height: 25px;
     }
+    .container{
+        display: flex;
+        flex-wrap: wrap;
+    }
 
-    .flex-container .item{
-        display: block;
+}
+@media (min-aspect-ratio:16/9){
+    .shape-video{
+        width: 100%;
+        height: auto;
     }
 }
-
+@media (max-aspect-ratio:16/9){
+    .shape-video{
+        width: auto;
+        height: 100%;
+    }
+}
