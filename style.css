@@ -123,7 +123,7 @@ h1, h2{
 }
 #group-image{
     height: 800px;
-    width: 100%;
+    width: auto;
     background: url(./images/group.png) no-repeat center center;
     margin-bottom: 50px;
     margin-top: 50px;
@@ -150,6 +150,15 @@ h1, h2{
     text-align: center;
     margin: 50px 0;
     font-size: 250%;
+}
+#gallery-images{
+    clear: both;
+    line-height: 0;
+    column-count: 4;
+    column-gap: 0;
+}
+#gallery-images > img{
+    width: 100%;
 }
 /*footer section*/
 
@@ -192,15 +201,24 @@ footer{
         display: flex;
         flex-wrap: wrap;
     }
-
+    #gallery-images{
+        column-count: 3;
+    }
 }
-@media (min-aspect-ratio:16/9){
+/*for smaller screens than 800px*/
+    @media screen and (max-width: 786px){
+    #gallery-images{
+        column-count: 2;
+    }
+}
+
+@media screen and (min-aspect-ratio:16/9){
     .shape-video{
         width: 100%;
         height: auto;
     }
 }
-@media (max-aspect-ratio:16/9){
+@media screen and (max-aspect-ratio:16/9){
     .shape-video{
         width: auto;
         height: 100%;
