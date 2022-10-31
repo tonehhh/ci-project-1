@@ -26,6 +26,7 @@ h1, h2{
     letter-spacing: 3px;
     color: black;
 }
+
 #logo{
     float: left;
     font-size: 250%;
@@ -39,24 +40,30 @@ h1, h2{
     font-size: 100%;
     letter-spacing: 3px;
 }
+
 #menu, #logo{
     line-height: 75px;
 }
+
 #menu li{
     float: right;
     list-style-type:none;
     margin-right: 30px;
 }
+
 #menu a{
     text-decoration: none;
     color: inherit;
 }
+
 #menu a:hover{
     border-bottom: 1px solid black;
 }
+
 .active{
     border-bottom: 1px solid black;
 }
+
 /* hero image */
 
 #hero-image{
@@ -78,6 +85,7 @@ h1, h2{
     justify-content: center;
     background-color: #DBFEFE;
     text-align: center;
+    margin: 50px;
 }
 
 .item{
@@ -122,6 +130,10 @@ h1, h2{
     justify-content: center;
     margin: 0 auto;
 }
+#bauhaus-movement p{
+    padding: 8px;
+}
+
 #group-image{
     height: 800px;
     width: auto;
@@ -136,6 +148,10 @@ h1, h2{
     justify-content: center;
     margin: 0 auto;
 }
+#outro p{
+    padding: 8px;
+}
+
 .shapes{
     display: flex;
     flex-direction: column;
@@ -152,6 +168,7 @@ h1, h2{
     margin: 50px 0;
     font-size: 250%;
 }
+
 #gallery-images{
     clear: both;
     line-height: 0;
@@ -159,6 +176,7 @@ h1, h2{
     column-gap: 0;
     margin-bottom: 150px;
 }
+
 #gallery-images > img{
     width: 100%;
 }
@@ -189,11 +207,13 @@ h1, h2{
     border: 0;
     background-color: black;
 }
+
 #signup p{
     font-size: 16px;
     line-height: 24px;
     margin-bottom: 50px;
 }
+
 #signup input{
     border-radius: 3px;
     width: 100%;
@@ -208,6 +228,7 @@ h1, h2{
     transition: 0.5s;
     font-size: 18px;
 }
+
 #signup button{
     border: 1px solid black;
     border-radius: 5px;
@@ -215,9 +236,11 @@ h1, h2{
     padding: 0 20px;
     cursor: pointer;
 }
+
 #signup button:hover{
     background-color: #8ABBC0;
 }
+
 /*footer section*/
 
 footer{
@@ -241,7 +264,9 @@ footer{
 
 /* media queries */
 
-@media screen (max-width: 1300px);{
+/*for ipad screens or smaller*/
+
+@media screen and (max-width: 1200px){
     .container{
         display: flex;
         flex-wrap: wrap;
@@ -263,7 +288,9 @@ footer{
         column-count: 3;
     }
 }
-/*for smaller screens than 800px*/
+
+/*for screens smaller than 800px*/
+
     @media screen and (max-width: 786px){
     #gallery-images{
         column-count: 2;
@@ -276,6 +303,7 @@ footer{
         height: auto;
     }
 }
+
 @media screen and (max-aspect-ratio:16/9){
     .shape-video{
         width: auto;
