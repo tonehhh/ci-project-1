@@ -15,6 +15,7 @@ body{
     height: 100vh;
     color:black;
     margin: 0;
+    background-color: #DBFEFE;
 }
 
 /* header */
@@ -156,9 +157,66 @@ h1, h2{
     line-height: 0;
     column-count: 4;
     column-gap: 0;
+    margin-bottom: 150px;
 }
 #gallery-images > img{
     width: 100%;
+}
+
+/*sign up/newsletter section*/
+
+#signup{
+    margin: 0 auto;
+    text-align: center;
+    max-width: 330px;
+    padding: 50px 30px;
+    background-color: white;
+    box-shadow: 3px 4px 0 #8ABBC0;
+    margin-bottom: 100px;
+}
+
+.newsletter{
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 250%;
+}
+
+#signup hr{
+    width: 70px;
+    height: 3px;
+    margin: 30px auto;
+    border: 0;
+    background-color: black;
+}
+#signup p{
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 50px;
+}
+#signup input{
+    border-radius: 3px;
+    width: 100%;
+    height: 50px;
+    border: 0;
+    padding: 0 20px;
+    margin-bottom: 36px;
+    outline: none;
+    box-sizing: border-box;
+    font-size: 16px;
+    background-color: #DBFEFE;
+    transition: 0.5s;
+    font-size: 18px;
+}
+#signup button{
+    border: 1px solid black;
+    border-radius: 5px;
+    height: 50px;
+    padding: 0 20px;
+    cursor: pointer;
+}
+#signup button:hover{
+    background-color: #8ABBC0;
 }
 /*footer section*/
 
