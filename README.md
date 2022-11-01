@@ -112,7 +112,7 @@ People will be able to learn about Bauhaus's brief but informative history in th
 ## Acknowledgements
 
  #### Content
- - The Gallery & social media links were taken from the CI [Love Running]() Project
+ - The Gallery & social media links were taken from the CI [Love Running](https://github.com/Code-Institute-Solutions/readme-template#love-running) Project
  - 
  #### Media
  - Images were sourced primarly from [Unsplash](www.unsplash.com) & [Pinterest](www.pinterest.com)
