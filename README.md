@@ -62,9 +62,10 @@ People will be able to learn about Bauhaus's brief but informative history in th
 ![Gallery](./readme%20images/gallery.png)
 
 
-- #### The Sign Up/Newsletter Section
+- #### The Sign Up/Footer Section
 
     - Thie Sign Up section will allow students to get signed up for a newsletter to start learning more about the school, updates on events in relation and resources to help educate users on the Bauhaus philosophy.
+    - Social media links are also presented to lead users to the relevant platforms in relation to the page to consume news (Twitter), events (Facebook) and design inspirations (Instagram).
 
 ![Sign Up & Newsletter](./readme%20images/signup-footer.png)
 
