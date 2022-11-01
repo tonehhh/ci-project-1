@@ -48,7 +48,7 @@ People will be able to learn about Bauhaus's brief but informative history in th
 - #### Video
 
     - At the end of the introduction user's a treated with a beautiful video animation, heavily inspired by one of the schools teachers,  Wassily Klandisky. Famous for his seminars on color and shapes.
-    - 
+    - The video gives users options to play it and to switch the audio on/off.
 
 
 ![Shapes Video](./readme%20images/video.png)
@@ -56,16 +56,16 @@ People will be able to learn about Bauhaus's brief but informative history in th
 
 - #### The Gallery Section
 
-    - The Gallery section provides users with both recent and past designs/art pieces that were inspired or done by members of the Bauhaus school.
-    - Images of such things like architecure, designs, art and products are shown to help users understand what the school has achieved and what the website can provide in terms of educating
+    - The Gallery section provides users with both recent and past designs/art pieces that were inspired or made by members of the Bauhaus school.
+    - To help users understand what the school has accomplished and what the website can offer in terms of education, images of things like architecture, designs, art and products are displayed.
 
 ![Gallery](./readme%20images/gallery.png)
 
 
 - #### The Sign Up/Footer Section
 
-    - Thie Sign Up section will allow students to get signed up for a newsletter to start learning more about the school, updates on events in relation and resources to help educate users on the Bauhaus philosophy.
-    - Social media links are also presented to lead users to the relevant platforms in relation to the page to consume news (Twitter), events (Facebook) and design inspirations (Instagram).
+    - Students can sign up for a newsletter in the Sign Up area to learn more about the school, receive notifications of related events, and access resources to help users understand the Bauhaus school of thought.
+    - Links to social media sites are also provided to guide readers to the appropriate channels for news (Twitter), events (Facebook), and design inspiration (Instagram).
 
 ![Sign Up & Newsletter](./readme%20images/signup-footer.png)
 
@@ -107,14 +107,14 @@ People will be able to learn about Bauhaus's brief but informative history in th
 
 ## Deployment
 - The site was deployed to GitHub pages in the GitHub repository via the Settings Tab
-- From the source section drop-down menu then selected the Master Branch
-- Once the master master branch was selected, a link to the completed site was provided.
+- From the source section drop-down menu then selected the Main Branch
+- Once the master main branch was selected, a link to the completed site was provided.
 ## Acknowledgements
 
  #### Content
  - The Gallery & social media links were taken from the CI [Love Running]() Project
  - 
  #### Media
- - Images were sourced from primarly [Unsplash](www.unsplash.com) & [Pinterest](www.pinterest.com)
+ - Images were sourced primarly from [Unsplash](www.unsplash.com) & [Pinterest](www.pinterest.com)
  - Video was sourced from [@Buahuas Movement](https://twitter.com/BauhausMovement)
 
