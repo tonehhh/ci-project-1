@@ -78,10 +78,18 @@ People will be able to learn about Bauhaus's brief but informative history in th
 
 #### Bugs
 - ##### Solved Bugs
-    - When I first deployed my project I realised that the performance was alot slower than expected.
+    - When i first deployed my project to GitHub I noticed that my project was broken, none of the CSS was working.
+    - I realised I had used an absolute file path was causing the issue like below
+##
+
+    <link rel="stylesheet" href="style.css">
+
+- Performance
+    - I also realised that the performance was alot slower than expected.
     - I figured out the performance was lacking due to using large PNG files for the images and originally having an autoplay video was causing it.
     - I compressed and converted the images to WEBP files and changed from having a video autoplaying in the background to one having controls and giving users the option to play when they need to.
     - This resulted in the page having almost a doubled performance score from previous and was no longer suffering from any unnecessary lag.
+  
 
 #### Validator Testing
 - ##### HTML
