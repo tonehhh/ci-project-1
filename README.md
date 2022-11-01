@@ -48,6 +48,7 @@ People will be able to learn about Bauhaus's brief but informative history in th
 - #### Video
 
     - At the end of the introduction user's a treated with a beautiful video animation, heavily inspired by one of the schools teachers,  Wassily Klandisky. Famous for his seminars on color and shapes.
+    - 
 
 
 ![Shapes Video](./readme%20images/video.png)
@@ -75,15 +76,18 @@ People will be able to learn about Bauhaus's brief but informative history in th
 - The sign up sections works perfectly, requiring and only accepting emails in the email field. The submit button also works and has a added animation for confirmation of action.
 
 #### Bugs
-- When I first deployed my project I realised that the performance was alot slower than expected
-- I figured out the performance was lacking due to using large PNG files for the images was causing it and opted to compress then convert my images to WEBP instead and performance was hugely improved.
+- ##### Solved Bugs
+    - When I first deployed my project I realised that the performance was alot slower than expected.
+    - I figured out the performance was lacking due to using large PNG files for the images and originally having an autoplay video was causing it.
+    - I compressed and converted the images to WEBP files and changed from having a video autoplaying in the background to one having controls and giving users the option to play when they need to.
+    - This resulted in the page having almost a doubled performance score from previous and was no longer suffering from any unnecessary lag.
 
 #### Validator Testing
 - ##### HTML
     - No errors were found when testing through the official W3C validator.
 - ##### CSS
     - No errors were found when testing through the official Jigsaw validator.
-    
+
 ![Lighthouse Score](./readme%20images/lighthouse-score.png)
 
 ![Performance Score](./readme%20images/performance-score.png)
