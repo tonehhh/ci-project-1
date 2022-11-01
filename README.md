@@ -59,9 +59,15 @@ People will be able to learn about Bauhaus's brief but informative history in th
 
 #### Unfixed Bugs
 ### Deployment
-## Acknowledgements
+- The site was deployed to GitHub pages in the GitHub repository via the Settings Tab
+- From the source section drop-down menu then selected the Master Branch
+- Once the master master branch was selected, a link to the completed site was provided.
+### Acknowledgements
 
- - [Awesome Readme Templates](https://awesomeopensource.com/project/elangosundar/awesome-README-templates)
- - [Awesome README](https://github.com/matiassingers/awesome-readme)
- - [How to write a Good readme](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
+ #### Content
+ - The Gallery & social media links were taken from the CI [Love Running]() Project
+ - 
+ #### Media
+ - Images were sourced from primarly [Unsplash](www.unsplash.com) & [Pinterest](www.pinterest.com)
+ - Video was sourced from [@Buahuas Movement](https://twitter.com/BauhausMovement)
 
