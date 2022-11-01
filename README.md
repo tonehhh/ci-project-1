@@ -11,11 +11,12 @@ People will be able to learn about Bauhaus's brief but informative history in th
 
 ## Features
 
-#### Navigation
-- Featured at the top of the page, the navigation shows the name "Bauhaus" in the left corner that links to the top of the page.
-- The navigation links ot the rigth: Intro, Gallery and Sign Up link ot different sections of the same page.
-- The navigation is in a font that is similar to the commonly used font from Bauhaus in black and the background color of the blue sky that matches with the hero image which also contrasts well.
-- The navigation is very clear for users to find what information they're looking for.
+- #### Navigation
+
+    - Featured at the top of the page, the navigation shows the name "Bauhaus" in the left corner that links to the top of the page.
+    - The navigation links ot the rigth: Intro, Gallery and Sign Up link ot different sections of the same page.
+    - The navigation is in a font that is similar to the commonly used font from Bauhaus in black and the background color of the blue sky that matches with the hero image which also contrasts well.
+    - The navigation is very clear for users to find what information they're looking for.
 
 
 
@@ -23,11 +24,20 @@ People will be able to learn about Bauhaus's brief but informative history in th
 ![Navigation Bar](./readme%20images/navigation-bar.png)
 
 
-### The Header
+- #### The Header
+    - The header displays some empty space filled with a calm blue sky leading us to the focus point being some peaks ontop of a building.
+    - It gives us a decent idea of what to expect in the rest of the site, showing off the design philosophy of Bauhaus.
+
 ![Header](./readme%20images/header.png)
 
 
-### The Introduction Section
+
+
+- #### The Introduction Section
+
+    - The introduction section is split into 3 parts, it gives us a short summary of the history of the school of Bauhaus and it's founder, Walter Gropius followed up with how it inspired students to join the infamous school.
+    - While also providing images of the school, founder, famous designs and group photo of some influencial people.
+
 ![Introduction Part 1](./readme%20images/intro1.png)
 
 ![Introduction Part 2](./readme%20images/intro2.png)
@@ -35,34 +45,58 @@ People will be able to learn about Bauhaus's brief but informative history in th
 ![Introduction Part 3](./readme%20images/intro3.png)
 
 
-### Video
+- #### Video
+
+    - At the end of the introduction user's a treated with a beautiful video animation, heavily inspired by one of the schools teachers,  Wassily Klandisky. Famous for his seminars on color and shapes.
+
+
 ![Shapes Video](./readme%20images/video.png)
 
 
-### The Gallery Section
+- #### The Gallery Section
+
+    - The Gallery section provides users with both recent and past designs/art pieces that were inspired or done by members of the Bauhaus school.
+    - Images of such things like architecure, designs, art and products are shown to help users understand what the school has achieved and what the website can provide in terms of educating
+
 ![Gallery](./readme%20images/gallery.png)
 
 
-### The Sign Up/Newsletter Section
+- #### The Sign Up/Newsletter Section
+
+    - Thie Sign Up section will allow students to get signed up for a newsletter to start learning more about the school, updates on events in relation and resources to help educate users on the Bauhaus philosophy.
+
 ![Sign Up & Newsletter](./readme%20images/signup-footer.png)
 
 
-### Testing
-
+## Testing
+- I've tested the page and everything works fine on different browsers such as Chrome, Brave and Safari.
+- I can also confirm that the page's responsiveness looks good on both mobile and tablet screens using relevant devices and devtools device toolbar.
+- The navigation, header, introduction, gallery, sign up and footer sections and text are all readable and are clear.
+- The sign up sections works perfectly, requiring and only accepting emails in the email field. The submit button also works and has a added animation for confirmation of action.
 
 #### Bugs
+- When I first deployed my project I realised that the performance was alot slower than expected
+- I figured out the performance was lacking due to using large PNG files for the images was causing it and opted to compress then convert my images to WEBP instead and performance was hugely improved.
+
 #### Validator Testing
+- ##### HTML
+    - No errors were found when testing through the official W3C validator.
+- ##### CSS
+    - No errors were found when testing through the official Jigsaw validator.
+    
 ![Lighthouse Score](./readme%20images/lighthouse-score.png)
 
 ![Performance Score](./readme%20images/performance-score.png)
 
 
 #### Unfixed Bugs
-### Deployment
+- No unfixed bugs
+
+## Deployment
 - The site was deployed to GitHub pages in the GitHub repository via the Settings Tab
 - From the source section drop-down menu then selected the Master Branch
 - Once the master master branch was selected, a link to the completed site was provided.
-### Acknowledgements
+## Acknowledgements
 
  #### Content
  - The Gallery & social media links were taken from the CI [Love Running]() Project
