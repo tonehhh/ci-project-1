@@ -6,7 +6,7 @@ What is the Bauhaus presents a succinct history of the institution, its founder 
 
 People will be able to learn about Bauhaus's brief but informative history in the website's introduction as well as the beauty of its designs and artworks in the gallery section. They can also sign up for a newsletter in the sign-up section to receive additional information, the most recent news, and resources related to Bauhaus.
 
-![Website Preview](./readme%20images/website-preview.png)
+![Website Preview](./assets/readme%20images/website-preview.png)
 
 
 ## Features
@@ -21,14 +21,14 @@ People will be able to learn about Bauhaus's brief but informative history in th
 
 
 
-![Navigation Bar](./readme%20images/navigation-bar.png)
+![Navigation Bar](./assets/readme%20images/navigation-bar.png)
 
 
 - #### The Header
     - The header displays some empty space filled with a calm blue sky leading us to the focus point being some peaks ontop of a building.
     - It gives us a decent idea of what to expect in the rest of the site, showing off the design philosophy of Bauhaus.
 
-![Header](./readme%20images/header.png)
+![Header](./assets/readme%20images/header.png)
 
 
 
@@ -38,11 +38,11 @@ People will be able to learn about Bauhaus's brief but informative history in th
     - The introduction section is split into 3 parts, it gives us a short summary of the history of the school of Bauhaus and it's founder, Walter Gropius followed up with how it inspired students to join the infamous school.
     - While also providing images of the school, founder, famous designs and group photo of some influencial people.
 
-![Introduction Part 1](./readme%20images/intro1.png)
+![Introduction Part 1](./assets/readme%20images/intro1.png)
 
-![Introduction Part 2](./readme%20images/intro2.png)
+![Introduction Part 2](./assets/readme%20images/intro2.png)
 
-![Introduction Part 3](./readme%20images/intro3.png)
+![Introduction Part 3](./assets/readme%20images/intro3.png)
 
 
 - #### Video
@@ -51,7 +51,7 @@ People will be able to learn about Bauhaus's brief but informative history in th
     - The video gives users options to play it and to switch the audio on/off.
 
 
-![Shapes Video](./readme%20images/video.png)
+![Shapes Video](./assets/readme%20images/video.png)
 
 
 - #### The Gallery Section
@@ -59,7 +59,7 @@ People will be able to learn about Bauhaus's brief but informative history in th
     - The Gallery section provides users with both recent and past designs/art pieces that were inspired or made by members of the Bauhaus school.
     - To help users understand what the school has accomplished and what the website can offer in terms of education, images of things like architecture, designs, art and products are displayed.
 
-![Gallery](./readme%20images/gallery.png)
+![Gallery](./assets/readme%20images/gallery.png)
 
 
 - #### The Sign Up/Footer Section
@@ -67,7 +67,7 @@ People will be able to learn about Bauhaus's brief but informative history in th
     - Students can sign up for a newsletter in the Sign Up area to learn more about the school, receive notifications of related events, and access resources to help users understand the Bauhaus school of thought.
     - Links to social media sites are also provided to guide readers to the appropriate channels for news (Twitter), events (Facebook), and design inspiration (Instagram).
 
-![Sign Up & Newsletter](./readme%20images/signup-footer.png)
+![Sign Up & Newsletter](./assets/readme%20images/signup-footer.png)
 
 
 ## Testing
@@ -97,9 +97,9 @@ People will be able to learn about Bauhaus's brief but informative history in th
 - ##### CSS
     - No errors were found when testing through the official Jigsaw validator.
 
-![Lighthouse Score](./readme%20images/lighthouse-score.png)
+![Lighthouse Score](./assets/readme%20images/lighthouse-score.png)
 
-![Performance Score](./readme%20images/performance-score.png)
+![Performance Score](./assets/readme%20images/performance-score.png)
 
 
 #### Unfixed Bugs
