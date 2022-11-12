@@ -69,7 +69,7 @@ h1, h2{
 #hero-image{
     height: 800px;
     width: 100%;
-    background: url(./images/hero-image.webp) no-repeat center center;
+    background: url(./assets/images/hero-image.webp) no-repeat center center;
 }
 
 /* introduction section */
@@ -117,11 +117,9 @@ h1, h2{
 }
 
 #designs{
-    height: 800px;
+    height: 100vh;
     width: 100%;
-    background: url(./images/bauhaus-designs1.webp) no-repeat center center;
-    margin-bottom: 50px;
-    padding-top: 100px;
+    background: url(./assets/images/bauhaus-designs.webp) no-repeat center center;
 }
 
 #bauhaus-movement{
@@ -130,17 +128,16 @@ h1, h2{
     flex-wrap: wrap;
     justify-content: center;
     margin: 0 auto;
+    padding: 50px;
 }
 #bauhaus-movement p{
     padding: 8px;
 }
 
 #group-image{
-    height: 800px;
+    height: 100vh;
     width: auto;
-    background: url(./images/group.webp) no-repeat center center;
-    margin-bottom: 50px;
-    margin-top: 50px;
+    background: url(./assets/images/group.webp) no-repeat center center;
 }
 
 #outro{
@@ -149,6 +146,7 @@ h1, h2{
     flex-wrap: wrap;
     justify-content: center;
     margin: 0 auto;
+    padding: 50px;
 }
 
 #outro p{
@@ -164,6 +162,13 @@ h1, h2{
 
 }
 
+.shape-video{
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+    height: calc(.5625 * 80vw);
+
+}
 /*gallery section*/
 
 #galleria{
@@ -274,6 +279,10 @@ footer{
         display: flex;
         flex-wrap: wrap;
     }
+    .shape-video{
+        display: flex;
+        flex-wrap: wrap;
+    }
 }
 
 @media screen and (max-width: 980px){
@@ -297,19 +306,5 @@ footer{
     @media screen and (max-width: 786px){
     #gallery-images{
         column-count: 2;
-    }
-}
-
-@media screen and (min-aspect-ratio:16/9){
-    .shape-video{
-        width: 100%;
-        height: auto;
-    }
-}
-
-@media screen and (max-aspect-ratio:16/9){
-    .shape-video{
-        width: auto;
-        height: 100%;
     }
 }
