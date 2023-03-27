@@ -99,8 +99,6 @@ People will be able to learn about Bauhaus's brief but informative history in th
 
 ![Lighthouse Score](./assets/readme%20images/lighthouse-score.png)
 
-![Performance Score](./assets/readme%20images/performance-score.png)
-
 
 #### Unfixed Bugs
 - No unfixed bugs
